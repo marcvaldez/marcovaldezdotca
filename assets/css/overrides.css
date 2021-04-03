@@ -1,0 +1,45 @@
+#nav ul li a.active span:before {
+    color: #ed7014;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], button, .button {
+    background-color: #ed7014;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover, .button:hover {
+    background-color: #fcae1e;
+}
+
+.bgoverlay {
+    height: 100%;
+    padding: 10em 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#main > section.one {
+    padding: 0px;
+}
+
+#main > section.two h3 {
+    font-weight: 600;
+}
+
+#main > section.two header > p {
+    line-height: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+}
+
+#main > section.three {
+    background-color: #fff;
+}
+
+#main > section.three .compactlist > p {
+    margin-bottom: 0.5em;
+}
+
+strong, b {
+    font-weight: 600;
+    color: #888;
+}
